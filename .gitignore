@@ -1,0 +1,49 @@
+# Bağımlılıklar
+/node_modules
+/.pnp
+.pnp.js
+
+# Derleme çıktıları
+/.next/
+/out/
+/build/
+
+# Yerel ortam dosyaları
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log dosyaları
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Önbellek dosyaları
+/.cache
+/.vercel
+/.turbo
+
+# Test kapsamı raporları
+/coverage
+
+# Geçici dosyalar
+*.tsbuildinfo
+
+# IDE ve editör dosyaları
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS sistem dosyaları
+.DS_Store
+
+# Windows sistem dosyaları
+Thumbs.db
+
+# Diğer
+*.log
+node_modules
