@@ -19,9 +19,8 @@ export async function GET() {
 
 export async function POST(req) {
   const { title, description, status } = await req.json();
-  console.log(status);
+
   const result = await cartController.saveCart(title, description, status);
-  console.log(result);
 
   return new Response(JSON.stringify(result), {
     status: 200,
